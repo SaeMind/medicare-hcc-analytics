@@ -36,3 +36,22 @@ cd medicare-hcc-analytics
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+2. Data Ingestion Note: Raw CMS data is not included in the repo due to size constaints.
+1. Download Sample 1 (2008 Beneficiary Summary) from CMS SynPUF
+2. Place the .csv file in data/raw/.
+3. Run the pipeline:
+python src/ingestion.py
+python src/scoring.py
+
+3. Launch Dashboard
+streamlit run src/app.py
+### **Why this works:**
+* **Bold Headers (`**1. ...**`):** Instead of relying on Markdown's automatic list rendering (which breaks easily with code blocks), I manually bolded the numbers. This guarantees they will always appear as "1.", "2.", "3." regardless of the code blocks in between.
+* **Clarity:** This "Manual Header" style is standard in technical documentation because it is impossible to break.
+
+**Next Step:** Once you save this file, commit and push it to GitHub:
+```bash
+git add README.md
+git commit -m "Add documentation"
+git push
