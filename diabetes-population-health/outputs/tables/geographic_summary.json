@@ -1,0 +1,28 @@
+{
+  "total_states_analyzed": 54,
+  "mean_prevalence": 0.1253131903076256,
+  "std_prevalence": 0.027915950599397044,
+  "min_prevalence": 0.054613234211767274,
+  "max_prevalence": 0.19609231096727942,
+  "prevalence_range": 0.14147907675551213,
+  "highest_state": "Georgia",
+  "lowest_state": "Delaware",
+  "high_burden_threshold": 0.140040579097943,
+  "high_burden_states_count": 14,
+  "high_burden_states": [
+    "Georgia",
+    "Kentucky",
+    "Utah",
+    NaN,
+    "California",
+    "Rhode Island",
+    "Oklahoma",
+    "Massachusetts",
+    "Maine",
+    "Wisconsin",
+    "Texas",
+    "Florida",
+    "New York",
+    "Maryland"
+  ]
+}

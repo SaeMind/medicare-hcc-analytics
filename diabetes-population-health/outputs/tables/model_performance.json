@@ -1,0 +1,9 @@
+{
+  "auc_train": 0.5299306260759751,
+  "auc_test": 0.505011438111751,
+  "sensitivity": 0.0,
+  "specificity": 1.0,
+  "ppv": NaN,
+  "npv": 0.8802325581395349,
+  "accuracy_test": 0.8802325581395349
+}

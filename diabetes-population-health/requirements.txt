@@ -1,0 +1,13 @@
+pandas==2.2.0
+numpy==1.26.3
+scipy==1.12.0
+statsmodels==0.14.1
+scikit-learn==1.4.0
+matplotlib==3.8.2
+seaborn==0.13.1
+plotly==5.18.0
+geopandas==0.14.3
+folium==0.15.1
+jupyter==1.0.0
+openpyxl==3.1.2
+pyreadstat==1.2.6
