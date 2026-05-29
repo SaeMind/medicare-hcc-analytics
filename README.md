@@ -55,3 +55,9 @@ streamlit run src/app.py
 git add README.md
 git commit -m "Add documentation"
 git push
+
+## Demo
+
+![Streamlit Dashboard](assets/streamlit_demo.png)
+
+> Replace `assets/streamlit_demo.png` with an actual screenshot.
